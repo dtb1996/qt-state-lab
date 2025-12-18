@@ -16,6 +16,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: List available Qt modules (Linux)
+        run: |
+          python3 -m pip install aqtinstall
+          python3 -m aqt list-qt linux desktop 6.10.1 gcc_64 --modules
       
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
@@ -54,6 +59,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: List available Qt modules (Windows)
+        run: |
+          python -m pip install aqtinstall
+          python -m aqt list-qt windows desktop 6.10.1 win64_msvc2022_64 --modules
 
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
