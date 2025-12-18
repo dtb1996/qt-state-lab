@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/QtStateLab/">
-    <file alias="ui/qmldir">/home/dillon/QtProjects/QtStateLab/build/Desktop_Qt_6_10_1-Debug/QtStateLab/ui/qmldir</file>
-    <file alias="ui/screens/qmldir">/home/dillon/QtProjects/QtStateLab/build/Desktop_Qt_6_10_1-Debug/QtStateLab/ui/screens/qmldir</file>
-    <file alias="ui/overlays/qmldir">/home/dillon/QtProjects/QtStateLab/build/Desktop_Qt_6_10_1-Debug/QtStateLab/ui/overlays/qmldir</file>
-    <file alias="ui/components/qmldir">/home/dillon/QtProjects/QtStateLab/build/Desktop_Qt_6_10_1-Debug/QtStateLab/ui/components/qmldir</file>
-  </qresource>
-</RCC>
-
