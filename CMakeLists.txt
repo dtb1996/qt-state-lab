@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(QtStateLab VERSION 0.1 LANGUAGES CXX)
+project(QtStateLab VERSION 0.1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -14,7 +14,7 @@ qt_add_executable(appQtStateLab
 
 qt_add_qml_module(appQtStateLab
     URI QtStateLab
-    VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}
     QML_FILES
         ui/Main.qml
         ui/screens/HomeScreen.qml
