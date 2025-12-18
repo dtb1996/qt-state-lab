@@ -1,0 +1,2 @@
+/home/dillon/QtProjects/QtStateLab/build/Desktop_Qt_6_10_1-Debug/appQtStateLab_autogen/include/../VJIZ3MDCXP/moc_AppState.cpp.json
+/home/dillon/QtProjects/QtStateLab/build/Desktop_Qt_6_10_1-Debug/appQtStateLab_autogen/include/../VJIZ3MDCXP/moc_SettingsManager.cpp.json

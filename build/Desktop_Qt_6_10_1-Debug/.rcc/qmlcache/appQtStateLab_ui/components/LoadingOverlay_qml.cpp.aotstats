@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "/home/dillon/QtProjects/QtStateLab/ui/components/LoadingOverlay.qml"
+                }
+            ],
+            "moduleId": "QtStateLab(appQtStateLab)"
+        }
+    ]
+}

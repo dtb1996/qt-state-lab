@@ -1,0 +1,95 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "initialItem",
+                            "line": 15,
+                            "message": "Could not find property \"initialItem\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 14,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 96,
+                            "functionName": "visible",
+                            "line": 44,
+                            "message": "Cannot access value for name AppState"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 88,
+                            "functionName": "visible",
+                            "line": 48,
+                            "message": "Cannot access value for name AppState"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 65,
+                            "functionName": "message",
+                            "line": 49,
+                            "message": "Cannot access value for name AppState"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 64,
+                            "functionName": "onDismissed",
+                            "line": 50,
+                            "message": "Cannot access value for name AppState"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 80,
+                            "functionName": "onActivated",
+                            "line": 66,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 62,
+                            "functionName": "onActivated",
+                            "line": 71,
+                            "message": "Cannot retrieve a non-object type by ID: mainWindow"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 21,
+                            "functionName": "target",
+                            "line": 81,
+                            "message": "Cannot access value for name AppState"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 91,
+                            "functionName": "onCurrentScreenChanged",
+                            "line": 83,
+                            "message": "Cannot access value for name AppState"
+                        }
+                    ],
+                    "filePath": "/home/dillon/QtProjects/QtStateLab/ui/Main.qml"
+                }
+            ],
+            "moduleId": "QtStateLab(appQtStateLab)"
+        }
+    ]
+}
