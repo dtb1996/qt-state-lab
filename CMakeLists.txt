@@ -14,6 +14,7 @@ qt_add_executable(appQtStateLab
 
 qt_add_qml_module(appQtStateLab
     URI QtStateLab
+    VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     QML_FILES
         ui/Main.qml
         ui/screens/HomeScreen.qml
