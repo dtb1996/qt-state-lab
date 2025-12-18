@@ -16,15 +16,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+      
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
           version: 6.10.1
-          target: desktop
           arch: gcc_64
           cache: true
-          modules: qtquickcontrols2
+          modules: qtbase,qtdeclarative
 
       - name: Configure
         run: |
@@ -60,10 +59,9 @@ jobs:
         uses: jurplel/install-qt-action@v4
         with:
           version: 6.10.1
-          target: desktop
           arch: win64_msvc2022_64
           cache: true
-          modules: qtquickcontrols2
+          modules: qtbase,qtdeclarative
 
       - name: Configure
         run: |
@@ -79,9 +77,8 @@ jobs:
 
       - name: Deploy Qt (windeployqt)
         run: |
-          mkdir dist
-          "${{ env.Qt6_DIR }}\bin\windeployqt.exe" build\Release\appQtStateLab.exe
-          move build\Release dist\windows
+          mkdir dist\windows
+          "${{ env.Qt6_DIR }}\bin\windeployqt.exe" --dir dist\windows build\Release\appQtStateLab.exe
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
