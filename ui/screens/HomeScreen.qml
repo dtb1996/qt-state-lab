@@ -28,5 +28,10 @@ Item {
             text: qsTr("Trigger Error")
             onClicked: AppState.setErrorMessage("Something went wrong")
         }
+
+        AppButton {
+            text: qsTr("Quit")
+            onClicked: Qt.quit()
+        }
     }
 }
