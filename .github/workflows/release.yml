@@ -24,7 +24,11 @@ jobs:
           target: desktop
           arch: gcc_64
           cache: true
-          modules: qtquickcontrols2
+          modules: qtbase,qtdeclarative
+
+      - name: List Qt modules
+        run: |
+          aqt list-qt linux desktop 6.10.1 gcc_64 --modules
 
       - name: Configure
         run: |
@@ -63,7 +67,11 @@ jobs:
           target: desktop
           arch: win64_msvc2022_64
           cache: true
-          modules: qtquickcontrols2
+          modules: qtbase,qtdeclarative
+
+      - name: List Qt modules
+        run: | 
+          python -m aqt list-qt windows desktop 6.10.1 win64_msvc2022_64 --modules
 
       - name: Configure
         run: |
