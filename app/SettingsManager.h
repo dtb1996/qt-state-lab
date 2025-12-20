@@ -1,6 +1,3 @@
-#ifndef SETTINGSMANAGER_H
-#define SETTINGSMANAGER_H
-
 #pragma once
 
 #include <QObject>
@@ -41,5 +38,3 @@ private:
     QString m_language;
     bool m_rememberLogin = false;
 };
-
-#endif // SETTINGSMANAGER_H

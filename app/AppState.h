@@ -1,6 +1,3 @@
-#ifndef APPSTATE_H
-#define APPSTATE_H
-
 #pragma once
 
 #include <QObject>
@@ -44,5 +41,3 @@ private:
     QString m_errorMessage;
     Screen m_currentScreen = Screen::Home;
 };
-
-#endif // APPSTATE_H
