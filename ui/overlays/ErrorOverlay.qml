@@ -1,5 +1,4 @@
 import QtQuick 2.15
-import QtQuick.Controls
 
 Rectangle {
     id: root
@@ -20,7 +19,6 @@ Rectangle {
         anchors.centerIn: parent
         color: "#363636"
         radius: 8
-        // padding: 16
 
         Column {
             id: column
@@ -31,12 +29,18 @@ Rectangle {
                 text: root.message
                 wrapMode: Text.WordWrap
                 color: "#FFFFFF"
+                anchors.horizontalCenter: parent.horizontalCenter
             }
 
-            Button {
-                text: qsTr("OK")
+            AppButton {
                 onClicked: root.dismissed()
                 anchors.horizontalCenter: parent.horizontalCenter
+
+                Text {
+                    text: qsTr("OK")
+                    color: "#000000"
+                    anchors.centerIn: parent
+                }
             }
         }
     }
