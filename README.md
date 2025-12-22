@@ -6,6 +6,10 @@ state, enum-driven navigation, and persistent settings.
 
 This project is intended as a reference architecture for Qt/QML applications.
 
+## Screenshot
+
+![Screenshot](docs/screenshots/app-screenshot.png)
+
 ## Goals
 
 - Keep QML as a pure view layer
