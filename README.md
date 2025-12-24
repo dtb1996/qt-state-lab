@@ -1,6 +1,6 @@
-# QtStateLab
+# Qt State Lab
 
-QtStateLab is a Qt 6 application demonstrating a clean separation between
+Qt State Lab is a Qt 6 application demonstrating a clean separation between
 QML presentation and C++ application logic using a centralized application
 state, enum-driven navigation, and persistent settings.
 
